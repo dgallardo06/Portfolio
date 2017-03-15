@@ -44,7 +44,9 @@ header{
   padding: 10px;
   margin-bottom: 30px;
 }
-/****************************************************/
+footer{
+  
+}
 h2{
   margin: 0;
 }
@@ -68,6 +70,10 @@ nav ul{
 .mobile-menu{
   display: none;
 }
+.social-media{
+  color: white;
+}
+/****************************************************/
 .hero{
   background-color: rgba(192, 192, 192, 0.30);
   border: 1px solid white;
