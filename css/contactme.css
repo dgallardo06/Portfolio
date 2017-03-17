@@ -34,9 +34,8 @@
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/skyline.jpg) no-repeat;
-     background-size: 100% 100%;
+     font-family: 'Exo', sans-serif;
+     background-color: #ebebeb;
 }
 header{
   background-color: white;
@@ -45,6 +44,7 @@ header{
 }
 footer{
   background-color: black;
+  padding: 10px 0px;
 }
 h2{
   margin: 0;
@@ -63,13 +63,15 @@ nav ul{
 .line{
   background: black;
   border-radius: 5px;
-  height: 5px;
+  height: 3px;
   margin-bottom: 5px;
 }
 .mobile-menu{
   display: none;
 }
+/****************************************************/
 .social-media{
   color: white;
+  font-size: 20px;
+  text-align: center;
 }
-/****************************************************/
