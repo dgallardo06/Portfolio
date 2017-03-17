@@ -34,15 +34,18 @@
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/skyline.jpg) no-repeat;
-     background-size: 100% 100%;
+     font-family: 'Exo', sans-serif;
+     background: url(../images/skyline.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
 }
 
 header{
   background-color: white;
   padding: 10px;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 footer{
   
@@ -64,25 +67,39 @@ nav ul{
 .line{
   background: black;
   border-radius: 5px;
-  height: 5px;
+  height: 3px;
   margin-bottom: 5px;
 }
 .mobile-menu{
   display: none;
 }
-.social-media{
-  color: white;
-}
 /****************************************************/
 .hero{
-  background-color: rgba(192, 192, 192, 0.30);
+  background-color: rgba(60, 64, 115, 0.30);
   border: 1px solid white;
-  margin-bottom: 30px;
+  padding: 10px 0px;
+  margin-top: 70px;
+}
+h1{
+  margin: 0;
 }
 .hero-heading{
   color: white;
-  font-weight: bold;
+  font-weight: 800;
+  font-size: 50px;
 }
 .social-media{
   color: white;
+  font-size: 20px;
 }
+
+/*    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+    vertical-align: middle;
+    padding: 10px 0px;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,.35);
+    width: 100%;*/
