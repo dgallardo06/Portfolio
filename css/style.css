@@ -49,6 +49,10 @@ header{
 footer{
   
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 h2{
   margin: 0;
 }
@@ -86,11 +90,10 @@ h1{
 .hero-heading{
   color: white;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 60px;
 }
 .social-media{
   color: white;
-  font-size: 25px;
 }
  i{
   padding-right: 15px;
