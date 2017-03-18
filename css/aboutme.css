@@ -43,7 +43,11 @@ header{
 }
 footer{
   background-color: black;
-  padding: 15px 0px;
+  padding: 20px 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 h2{
   margin: 0;
@@ -89,7 +93,6 @@ figcaption{
 }
 .social-media{
   color: white;
-  font-size: 25px;
   text-align: center;
   display: flex;
   justify-content: space-around;
