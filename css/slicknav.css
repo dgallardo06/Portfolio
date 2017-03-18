@@ -112,7 +112,7 @@
   }
 
 .slicknav_btn {
-  margin: 5px 5px 6px;
+  margin: 5px 15px 5px 0px;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   -webkit-border-radius: 4px;
@@ -150,7 +150,7 @@
     padding: 5px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
   }
     .slicknav_nav a:hover {
       -webkit-border-radius: 6px;
