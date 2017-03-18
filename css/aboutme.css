@@ -38,8 +38,7 @@
      background-color: #ebebeb;
 }
 header{
-  background-color: white;
-  padding: 15px;
+
 }
 footer{
   background-color: black;
@@ -96,4 +95,14 @@ figcaption{
   text-align: center;
   display: flex;
   justify-content: space-around;
+}
+ /******************Media Queries****************/
+ @media screen and (max-width: 40em) {
+  .js #menu {
+    display:none;
+  }
+  
+  .js .slicknav_menu {
+    display:block;
+  }
 }
