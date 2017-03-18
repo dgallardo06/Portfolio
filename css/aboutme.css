@@ -46,7 +46,7 @@ footer{
 }
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 h2{
   margin: 0;
@@ -95,6 +95,9 @@ figcaption{
   text-align: center;
   display: flex;
   justify-content: space-around;
+}
+.social-media a{
+  color: white;
 }
  /******************Media Queries****************/
  @media screen and (max-width: 40em) {
