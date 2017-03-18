@@ -42,10 +42,10 @@
      background-attachment: fixed;
 }
 
-header{
+/*header{
   background-color: white;
   padding: 15px;
-}
+}*/
 footer{
   
 }
@@ -98,3 +98,16 @@ h1{
  i{
   padding-right: 15px;
  }
+
+
+
+ /******************Media Queries****************/
+ @media screen and (max-width: 40em) {
+  .js #menu {
+    display:none;
+  }
+  
+  .js .slicknav_menu {
+    display:block;
+  }
+}
