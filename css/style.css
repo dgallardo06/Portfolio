@@ -81,7 +81,9 @@ nav ul{
   background-color: rgba(60, 64, 115, 0.30);
   border: 1px solid white;
   padding: 10px 0px;
-  margin-top: 70px;
+  position: absolute;
+  width: 100%;
+  top: 45%;
 }
 h1{
   margin: 0;
