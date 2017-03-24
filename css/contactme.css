@@ -82,7 +82,9 @@ nav ul{
 .social-media a{
   color: white;
 }
-
+.hide,.cloak div,.cloak span,.likert.cloak tbody,.likert.cloak thead{
+  display:none !important
+}
  /******************Media Queries****************/
  @media screen and (max-width: 40em) {
   .js #menu {

@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <title>Contact Me</title>
     
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/contactme.css">
+<!--     <link href="css/wufoo_structure.css" rel="stylesheet"> -->
+    <link href="css/wufoo_form.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contactme.css">
+
+    
 
     <script src="https://use.fontawesome.com/b798cb3afe.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="js/jquery_slicknav.js"></script>
     <script type="text/javascript" src="js/slicknav.js"></script>
+    <script src="js/wufoo.js"></script>
   </head>
   
   <body>
@@ -35,20 +40,83 @@
         </ul>
       </nav>
       </header>
+
+    <main id ="public">
+      <div id="container" class="ltr">
+        <form id="form3" name="form3" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+        action="https://dgallardo1.wufoo.com/forms/qz8l43x1tgif5y/#public">
+        <section id="header" class ="info"></section>
+        <ul>
+          <li id="foli10" class="notranslate      ">
+            <label class="desc" id="title10" for="Field10">Full Name
+              <span id="req_10" class="req">*</span>
+            </label>
+            <span>
+              <input id="Field10" name="Field10" type="text" class="field text fn" value="" size="8" tabindex="1"       required />
+              <label for="Field10">First</label>
+            </span>
+            <span>
+              <input id="Field11" name="Field11" type="text" class="field text ln" value="" size="14" tabindex="2" required />
+              <label for="Field11">Last</label>
+            </span>
+          </li>
+          <li id="foli3" class="notranslate      ">
+            <label class="desc" id="title3" for="Field3">Email</label>
+            <div>
+              <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3"       />
+            </div>
+          </li>
+          <li id="foli12" class="phone notranslate      ">
+            <label class="desc" id="title12" for="Field12">Phone Number</label>
+              <span>
+                <input id="Field12" name="Field12" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4"       />
+                  <label for="Field12">###</label>
+              </span>
+              <span class="symbol">-</span>
+              <span>
+                <input id="Field12-1" name="Field12-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="5" />
+                <label for="Field12-1">###</label>
+              </span>
+              <span class="symbol">-</span>
+              <span>
+                <input id="Field12-2" name="Field12-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="6" />
+                <label for="Field12-2">####</label>
+              </span>
+          </li>
+          <li id="foli4" class="notranslate">
+            <label class="desc" id="title4" for="Field4"> Message</label>
+            <div>
+              <textarea id="Field4" name="Field4" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="7" onkeyup=""></textarea>
+           </div>
+          </li>
+          <li class="buttons ">
+            <div>
+              <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit"/>
+            </div>
+          </li>
+          <li class="hide">
+            <label for="comment">Do Not Fill This Out</label>
+            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+            <input type="hidden" id="idstamp" name="idstamp" value="VO6pfy6hoWwXXJeT6LrCF4VLxVIZKtfsAwntyg09qjA=" />
+          </li>
+        </ul>
+        </form>
+      </div>
+    </main>
  
-      <footer>
-        <div class="social-media">
-          <a href="https://www.linkedin.com/in/denise-gallardo-9169a557">
-            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-          </a>
-          <a href="https://github.com/dgallardo06">
-            <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.instagram.com/_duhknees_/">
-            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-          </a>
-        </div>
-      </footer>
+    <footer>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/denise-gallardo-9169a557">
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/dgallardo06">
+          <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/_duhknees_/">
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
   </body>
 
 </html>
