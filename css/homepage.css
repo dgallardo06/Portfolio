@@ -91,7 +91,7 @@ h1{
 .hero-heading{
   color: white;
   font-weight: 800;
-  font-size: 60px;
+  font-size: 50px;
 }
 .social-media{
   color: white;
@@ -103,12 +103,74 @@ h1{
 
 
  /******************Media Queries****************/
- @media screen and (max-width: 40em) {
+ @media screen and (max-width: 767px) {
   .js #menu {
     display:none;
   }
   
   .js .slicknav_menu {
     display:block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .slicknav_menu{
+    display: none;
+  }
+  .centernav{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+  }
+  .hero{
+    height: 30%;
+    padding-top: 2%;
+  } 
+  .hero-heading{
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
+    top: 20%
+  }
+  .social-media{
+    position: absolute;
+    width: 100%;
+    top:70%;
+  }
+/*  nav ul a li {
+    display: inline-block;
+  }*/
+  nav ul a {
+/*    display: block;*/
+    padding: 15px;
+    color: #fff;
+    font-weight: 800;
+    margin: 0 10px;
+  }
+  nav ul a,nav ul a:after,nav ul a:before {
+    transition: all .5s;
+  }
+  nav ul a:hover {
+    color: #fff;
+  }
+  nav.stroke ul a{
+    position: relative;
+  }
+  nav.stroke ul a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #fff;
+    height: 1px;
+  }
+  nav.stroke ul a:hover:after {
+    width: 100%;
   }
 }
