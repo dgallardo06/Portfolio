@@ -29,7 +29,7 @@
  .centeralign{
     text-align: center;
  }
-/***************************************************/
+/*****************Base Styles*********************/
  body {
      color: #000;
      font-size: 18px;
@@ -59,35 +59,28 @@ nav ul{
   margin: 0;
   list-style: none;
 }
-.hamburger{
-  width: 10%;
-  margin-top: 10px;
-}
-.line{
-  background: black;
-  border-radius: 5px;
-  height: 3px;
-  margin-bottom: 5px;
-}
-.mobile-menu{
-  display: none;
-}
-/****************************************************/
-h1{
+
+/****************Page Styles********************/
+  h1{
     font-weight: 700;
 }
-.social-media{
-  color: white;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+  .social-media{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
-.social-media a{
-  color: white;
+  .social-media a{
+    color: white;
 }
-
+  ul,ol,li{
+    list-style: none;
+}
+  section p a{
+    font-weight: bolder;
+  }
  /******************Media Queries****************/
- @media screen and (max-width: 40em) {
+ @media screen and (max-width: 767px) {
   .js #menu {
     display:none;
   }
@@ -95,4 +88,55 @@ h1{
   .js .slicknav_menu {
     display:block;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  /******NAV******/
+  .slicknav_menu{
+    display: none;
+  }
+  .centernav{
+    display: flex;
+    justify-content: center;
+/*    position: absolute;
+    width: 100%;*/
+    top: 2%;
+  }
+/*  nav ul a li {
+    display: inline-block;
+  }*/
+  nav ul a {
+/*    display: block;*/
+    padding: 15px;
+    color: #fff;
+    font-weight: 800;
+    margin: 0 10px;
+  }
+  nav ul a,nav ul a:after,nav ul a:before {
+    transition: all .5s;
+  }
+  nav ul a:hover {
+    color: #fff;
+  }
+  nav.stroke ul a{
+    position: relative;
+  }
+  nav.stroke ul a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #fff;
+    height: 1px;
+  }
+  nav.stroke ul a:hover:after {
+    width: 100%;
+  }
+/******************************************/
+
+
 }
