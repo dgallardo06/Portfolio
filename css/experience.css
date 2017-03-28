@@ -98,15 +98,10 @@ nav ul{
   .centernav{
     display: flex;
     justify-content: center;
-/*    position: absolute;
-    width: 100%;*/
     top: 2%;
   }
-/*  nav ul a li {
-    display: inline-block;
-  }*/
+
   nav ul a {
-/*    display: block;*/
     padding: 15px;
     color: #fff;
     font-weight: 800;
