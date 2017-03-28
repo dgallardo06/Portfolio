@@ -114,6 +114,7 @@ h1{
 }
 
 @media only screen and (min-width: 768px) {
+  /******NAV******/
   .slicknav_menu{
     display: none;
   }
@@ -123,21 +124,6 @@ h1{
     position: absolute;
     width: 100%;
     top: 15%;
-  }
-  .hero{
-    height: 30%;
-    padding-top: 2%;
-  } 
-  .hero-heading{
-    font-size: 70px;
-    position: absolute;
-    width: 100%;
-    top: 20%
-  }
-  .social-media{
-    position: absolute;
-    width: 100%;
-    top:70%;
   }
 /*  nav ul a li {
     display: inline-block;
@@ -172,5 +158,22 @@ h1{
   }
   nav.stroke ul a:hover:after {
     width: 100%;
+  }
+
+/************/
+  .hero{
+    height: 30%;
+    padding-top: 2%;
+  } 
+  .hero-heading{
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
+    top: 20%
+  }
+  .social-media{
+    position: absolute;
+    width: 100%;
+    top:70%;
   }
 }
