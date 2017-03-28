@@ -63,23 +63,13 @@ nav ul{
   margin: 0;
   list-style: none;
 }
-.hamburger{
-  width: 10%;
-  margin-top: 10px;
-}
-.line{
-  background: black;
-  border-radius: 5px;
-  height: 3px;
-  margin-bottom: 5px;
-}
-.mobile-menu{
-  display: none;
-}
+
 /****************************************************/
 .hero{
   background-color: rgba(60, 64, 115, 0.30);
   border: 1px solid white;
+  border-left: none;
+  border-right: none;
   padding: 10px 0px;
   position: absolute;
   width: 100%;
