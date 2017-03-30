@@ -35,7 +35,7 @@
      font-size: 18px;
      line-height: 1.4;
      font-family: 'Exo', sans-serif;
-     background: url(../images/skyline.jpg);
+     background: url(../images/atl_skyline.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
@@ -115,11 +115,8 @@ h1{
     width: 100%;
     top: 15%;
   }
-/*  nav ul a li {
-    display: inline-block;
-  }*/
+
   nav ul a {
-/*    display: block;*/
     padding: 15px;
     color: #fff;
     font-weight: 800;
@@ -129,7 +126,7 @@ h1{
     transition: all .5s;
   }
   nav ul a:hover {
-    color: #fff;
+    color: #F8E076;
   }
   nav.stroke ul a{
     position: relative;
@@ -143,7 +140,7 @@ h1{
     width: 0%;
     content: '.';
     color: transparent;
-    background: #fff;
+    background: #F8E076;
     height: 1px;
   }
   nav.stroke ul a:hover:after {
