@@ -31,17 +31,17 @@
  }
  /**************Base Styles********************/
  body {
-     color: #000;
+     color: #fff;
      font-size: 18px;
      line-height: 1.4;
      font-family: 'Exo', sans-serif;
-     background-color: #ebebeb;
+     background-color: #28628C;
 }
 header{
-
+  padding: 20px 0px;
 }
 footer{
-  background-color: black;
+  background-color: #093260;
   padding: 20px 0px;
 }
 a {
@@ -63,6 +63,8 @@ nav ul{
 /*****************Page Styles*********************/
 h1{
   font-weight: 700;
+  color: #F8E076;
+  font-size: 3rem;
 }
 .social-media{
   color: white;
@@ -95,7 +97,6 @@ h1{
   .centernav{
     display: flex;
     justify-content: center;
-    top: 2%;
   }
   nav ul a {
     padding: 15px;
@@ -107,7 +108,7 @@ h1{
     transition: all .5s;
   }
   nav ul a:hover {
-    color: #fff;
+    color: #F8E076;
   }
   nav.stroke ul a{
     position: relative;
@@ -121,7 +122,7 @@ h1{
     width: 0%;
     content: '.';
     color: transparent;
-    background: #fff;
+    background: #F8E076;
     height: 1px;
   }
   nav.stroke ul a:hover:after {
