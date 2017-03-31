@@ -152,5 +152,8 @@ figcaption{
     justify-content: space-between;
     margin: 0px 20px;
   }
+  .filling-line{
+    color: #B74D18;
+  }
 
 }
