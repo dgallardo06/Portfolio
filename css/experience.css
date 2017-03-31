@@ -31,17 +31,17 @@
  }
 /*****************Base Styles*********************/
  body {
-     color: #000;
+     color: #fff;
      font-size: 18px;
      line-height: 1.4;
      font-family: 'Exo', sans-serif;
-     background-color: #ebebeb;
+     background-color: #28628C;
 }
 header{
 
 }
 footer{
-  background-color: black;
+  background-color: #093260;
   padding: 20px 0px;
 }
 a {
@@ -50,6 +50,7 @@ a {
 }
 h2{
   margin: 0;
+  font-family: 'Exo', sans-serif;
 }
 nav{
   font-size: 24px;
@@ -63,6 +64,7 @@ nav ul{
 /****************Page Styles********************/
   h1{
     font-weight: 700;
+    color: #F8E076;
 }
   .social-media{
     color: white;
@@ -111,7 +113,7 @@ nav ul{
     transition: all .5s;
   }
   nav ul a:hover {
-    color: #fff;
+    color: #F8E076;
   }
   nav.stroke ul a{
     position: relative;
@@ -125,13 +127,15 @@ nav ul{
     width: 0%;
     content: '.';
     color: transparent;
-    background: #fff;
+    background: #F8E076;
     height: 1px;
   }
   nav.stroke ul a:hover:after {
     width: 100%;
   }
 /******************************************/
-
+  section p a{
+    color: #67311A;
+  }
 
 }
