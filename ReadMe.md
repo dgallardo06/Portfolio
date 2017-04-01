@@ -4,7 +4,7 @@
 
 The purpose of this website is to showcase what I have learned at General Assembly and share some things about myself.
 
-This website will include the following pages: About Me, Work, Experience, Contact Me.
+This website will include the following pages: About Me, Experience and Contact.
 
 
 
@@ -12,3 +12,5 @@ This website will include the following pages: About Me, Work, Experience, Conta
 * HTML5
 * CSS
 * JQuery
+  * Timeline Plug-in
+  * Mobile Nav Plug-in
