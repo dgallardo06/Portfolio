@@ -1,17 +1,17 @@
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -24,18 +24,18 @@
 
 .alignleft {
   float: left;
- }
+}
 
- .centeralign{
-    text-align: center;
- }
- /**************Base Styles********************/
- body {
-     color: #fff;
-     font-size: 18px;
-     line-height: 1.4;
-     font-family: 'Exo', sans-serif;
-     background-color: #28628C;
+.centeralign{
+  text-align: center;
+}
+/**************Base Styles********************/
+body {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: 'Exo', sans-serif;
+  background-color: #28628C;
 }
 header{
   padding: 20px 0px;
@@ -64,7 +64,23 @@ nav ul{
 h1{
   font-weight: 700;
   color: #F8E076;
-  font-size: 3rem;
+  font-size: 3em;
+}
+h2{
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+h2, p{
+  width: 47%;
+  margin: 0 auto;
+}
+section i{
+  margin-top: 5%;
+}
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
 }
 .social-media{
   color: white;
@@ -75,11 +91,8 @@ h1{
 .social-media a{
   color: white;
 }
-.hide,.cloak div,.cloak span,.likert.cloak tbody,.likert.cloak thead{
-  display:none !important
-}
- /******************Media Queries****************/
- @media screen and (max-width: 767px) {
+/******************Media Queries****************/
+@media screen and (max-width: 767px) {
   .js #menu {
     display:none;
   }
